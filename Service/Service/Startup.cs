@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Net.WebSockets;
+using Service.Interfaces;
+using Service.Services;
 
 namespace Evoke.Kiosk.Nordic
 {
@@ -56,14 +58,13 @@ namespace Evoke.Kiosk.Nordic
 
             app.Use(async (context, next) =>
             {
-                if (context.Request.Path == "/message")
+                if (context.Request.Path == "/default")
                 {
                     if (context.WebSockets.IsWebSocketRequest)
                     {
                         WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync();
 
-                        // TODO: Implement MessageService
-                        //IMessageService nordicService = new MessageService(webSocket);
+                        IWebSocketsService webSocketsService = new WebSocketsService(webSocket);
                     }
                     else
                     {
