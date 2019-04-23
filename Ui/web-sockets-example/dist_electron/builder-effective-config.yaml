@@ -1,0 +1,15 @@
+directories:
+  output: dist_electron
+  buildResources: build
+  app: dist_electron/bundled
+files:
+  - filter:
+      - '**'
+extends: null
+artifactName: web-sockets-example.exe
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+electronVersion: 4.0.0

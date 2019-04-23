@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 4,
+    "trailing-spaces.trimOnSave": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "vetur.format.options.tabSize": 4
+}

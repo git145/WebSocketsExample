@@ -1,0 +1,19 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    "recommendations": [
+        // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+        "formulahendry.dotnet-test-explorer",
+        "ms-vscode.csharp",
+        "msjsdiag.debugger-for-chrome",
+        "trabpukcip.vscode-npm-scripts",
+        "christian-kohler.path-intellisense",
+        "sainoba.px-to-rem",
+        "robinbentley.sass-indented",
+        "mrmlnc.vscode-scss",
+        "shardulm94.trailing-spaces",
+        "eg2.tslint",
+        "octref.vetur",
+        "jcbuisson.vue"
+    ]
+}
