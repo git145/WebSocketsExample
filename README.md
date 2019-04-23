@@ -25,7 +25,8 @@ An example of WebSockets using Vue.js, Electron and .NET Core.
 
 ### Service
 - Navigate to the folder containing **Service.csproj** in a terminal and execute **dotnet publish -c Release -r win10-x64** to build the API.
-- Execute **sc create WebSocketsExample binPath=[path to publish/Service.exe]** from the command line to create the service.
+- Execute **sc create WebSocketsExample binPath=[path to publish/Service.exe]** from the command line (run as administrator) to install the service.
+- Execute **sc delete WebSocketsExample** from the command line (run as administrator) to uninstall the service.
 
 ### UI
 - Navigate to the folder containing **package.json** in a terminal and execute **npm install**, and then **npm run electron:build** to build the API.
