@@ -28,7 +28,7 @@
         "vuex-typex": "*3.0.1"
     },
     "devDependencies": {
-        "@types/chai": "*4.1.0",
+        "@types/chai": "*4.1.7",
         "@types/mocha": "*5.2.4",
         "@vue/cli-plugin-babel": "*3.6.0",
         "@vue/cli-plugin-e2e-cypress": "*3.6.0",
@@ -38,14 +38,14 @@
         "@vue/cli-service": "*3.6.0",
         "@vue/test-utils": "*1.0.0-beta.29",
         "chai": "*4.1.2",
+        "codelyzer": "*4.2.1",
         "electron": "*4.0.0",
+        "electron-builder": "*20.28.4",
         "node-sass": "*4.9.0",
         "sass-loader": "*7.1.0",
         "typescript": "*3.4.3",
         "vue-cli-plugin-electron-builder": "*1.2.0",
-        "vue-template-compiler": "*2.6.10",
-        "electron-builder": "*20.28.4",
         "vue-lazyload": "*1.2.6",
-        "codelyzer": "*4.2.1"
+        "vue-template-compiler": "*2.6.10"
     }
 }
