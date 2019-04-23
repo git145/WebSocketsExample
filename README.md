@@ -1,5 +1,5 @@
 [[_TOC_]]
-# Introduction 
+# Introduction
 An example of WebSockets using Vue.js, Electron and .NET Core.
 
 # Getting Started
