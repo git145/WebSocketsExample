@@ -8,7 +8,7 @@ pool:
 
 steps:
 - script:
-    git pull https://github.com/git145/WebSocketsExample.git master --allow-unrelated-histories
+    git pull https://$(gitHubPersonalToken)@github.com/git145/WebSocketsExample.git master --allow-unrelated-histories
   displayName: 'Pull from GitHub'
 
 - script:
