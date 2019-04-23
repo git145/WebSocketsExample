@@ -6,7 +6,7 @@ files:
   - filter:
       - '**'
 extends: null
-artifactName: web-sockets-test.exe
+artifactName: web-sockets-example.exe
 win:
   target:
     - target: nsis

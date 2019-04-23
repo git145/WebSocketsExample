@@ -4,7 +4,7 @@ module.exports = {
     pluginOptions: {
         electronBuilder: {
             builderOptions: {
-                "artifactName": "web-sockets-test.exe",
+                "artifactName": "web-sockets-example.exe",
                 "win": {
                     "target": [
                         {

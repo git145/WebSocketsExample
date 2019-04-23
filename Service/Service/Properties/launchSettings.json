@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Evoke.Hal.Server": {
+    "WebSocketsExample": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5050/",
